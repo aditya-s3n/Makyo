@@ -1,0 +1,12 @@
+#version 460
+
+#include "common.glsl"
+
+layout(local_size_x = 8, local_size_y = 8) in;
+
+// TODO: descriptor bindings (accumulation image, camera, triangles, BVH, materials)
+// TODO: push constants (frameIndex, samplesPerPixel, maxBounces, accumulatedSamples)
+
+void main() {
+    // TODO
+}

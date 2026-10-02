@@ -1,0 +1,34 @@
+# Build output
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+_deps/
+
+# Compiled shaders
+*.spv
+
+# Binaries / objects
+*.o
+*.obj.o
+*.a
+*.so
+*.exe
+*.dll
+*.pdb
+
+# Rendered frames
+renders/
+
+# ImGui layout
+imgui.ini
+
+# Editors / tools
+.vscode/
+.idea/
+.cache/
+*.swp
+.DS_Store
